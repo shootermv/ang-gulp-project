@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="About View" timestamp="2016-02-28T09:10:30" hostname="localhost" time="10.823" errors="0" tests="3" skipped="0" failures="0">
+  <testcase classname="About View" name="about page should include jumbotron with correct data" time="6.911">
+  </testcase>
+  <testcase classname="About View" name="&amp;quot;about&amp;quot; link in main navbar - should have active class" time="0.801">
+  </testcase>
+  <testcase classname="About View" name="other links in main navbar - should NOT have active class" time="3.106">
+  </testcase>
+ </testsuite>
+</testsuites>
