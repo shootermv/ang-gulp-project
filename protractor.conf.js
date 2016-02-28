@@ -14,11 +14,11 @@ exports.config = {
   // Capabilities to be passed to the webdriver instance.
 
  //Chrome or FF
- 
+ /*
  capabilities: {
   'browserName':  'firefox'//or 'chrome'
  },
- 
+ */
 
  /*
  //IE
@@ -47,7 +47,7 @@ exports.config = {
  }],
 */
 
-/* 
+
  //phantomjs
  capabilities: {
     'browserName': 'phantomjs',
@@ -65,7 +65,7 @@ exports.config = {
     'phantomjs.ghostdriver.cli.args': ['--loglevel=DEBUG']
   },
   
-  */
+  
   baseUrl: 'http://localhost:3000',
 
   // Spec patterns are relative to the current working directory when

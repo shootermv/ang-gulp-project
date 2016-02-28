@@ -4,8 +4,8 @@ node_js:
 before_script:
   - npm install -g bower
   - npm install -g gulp  
+  - npm install phantomjs
   - npm install
   - bower install
-  - ./node_modules/protractor/bin/webdriver-manager update
 script: 
   - gulp protractor
