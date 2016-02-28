@@ -16,7 +16,7 @@ exports.config = {
  //Chrome or FF
  
  capabilities: {
-  'browserName':  'chrome'//or 'firefox'
+  'browserName':  'firefox'//or 'chrome'
  },
  
 
