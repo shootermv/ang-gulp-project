@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="About View" timestamp="2016-02-28T09:10:30" hostname="localhost" time="10.823" errors="0" tests="3" skipped="0" failures="0">
-  <testcase classname="About View" name="about page should include jumbotron with correct data" time="6.911">
+ <testsuite name="About View" timestamp="2016-02-28T09:47:44" hostname="localhost" time="8.299" errors="0" tests="3" skipped="0" failures="0">
+  <testcase classname="About View" name="about page should include jumbotron with correct data" time="6.898">
   </testcase>
-  <testcase classname="About View" name="&amp;quot;about&amp;quot; link in main navbar - should have active class" time="0.801">
+  <testcase classname="About View" name="&amp;quot;about&amp;quot; link in main navbar - should have active class" time="0.809">
   </testcase>
-  <testcase classname="About View" name="other links in main navbar - should NOT have active class" time="3.106">
+  <testcase classname="About View" name="other links in main navbar - should NOT have active class" time="0.588">
+  </testcase>
+ </testsuite>
+ <testsuite name="The main view" timestamp="2016-02-28T09:47:53" hostname="localhost" time="10.763" errors="0" tests="2" skipped="0" failures="0">
+  <testcase classname="The main view" name="should include jumbotron with correct data" time="6.083">
+  </testcase>
+  <testcase classname="The main view" name="should list more than 5 awesome things" time="4.679">
   </testcase>
  </testsuite>
 </testsuites>
