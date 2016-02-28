@@ -6,4 +6,5 @@ before_script:
   - npm install -g gulp  
   - npm install
   - bower install
+  - webdriver-manager update
   - gulp protractor
